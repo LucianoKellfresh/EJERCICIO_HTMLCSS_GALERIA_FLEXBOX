@@ -1,0 +1,33 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.imagen_principal {
+    width: 100vw;
+}
+
+.imagen_principal:hover {
+    transition: .4s;
+    opacity: .4;
+    cursor: pointer;
+}
+
+.contenedor_galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.imagen_galeria {
+    width: 300px;
+}
+
+.imagen_galeria:hover {
+    transition: .4s;
+    opacity: .4;
+    border: 1px solid slategray;
+    cursor: pointer;
+    width: 400px;
+    height: 300px;
+}
